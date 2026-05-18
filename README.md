@@ -20,7 +20,7 @@ Gemma Drive is the alternative: the same workflow (pick docs, summarize, ask), b
 - **Summarize** each file individually, then roll up per-folder summaries.
 - **Ask** freeform questions across your workspace — Gemma answers using the folder and file summaries as context, which scales to workspaces that wouldn't fit directly into a model's context window.
 
-<!-- TODO: optional 30-second demo GIF -->
+![Demo](docs/demo.gif)
 
 ## Quick start
 
@@ -37,7 +37,7 @@ git clone https://github.com/KISSPatent/gemma-drive.git
 cd gemma-drive
 
 # 2. Pull a Gemma model
-ollama pull gemma3:4b       # ~3 GB; or any Gemma variant your hardware can handle
+ollama pull gemma4:e4b       # or any Gemma variant your hardware can handle
 
 # 3. Backend
 cd backend
@@ -69,7 +69,7 @@ Copy `backend/.env.example` to `backend/.env` and fill in:
 | `FRONTEND_URL` | yes | `http://localhost:5173` |
 | `DJANGO_DEBUG` | yes | `True` for local development |
 | `OLLAMA_URL` | no | Defaults to `http://localhost:11434` |
-| `OLLAMA_MODEL` | no | Defaults to `gemma3:4b`; set to whatever `ollama list` shows |
+| `OLLAMA_MODEL` | no | Defaults to `gemma4:e4b`; set to whatever `ollama list` shows |
 
 ### Getting Google OAuth credentials
 
