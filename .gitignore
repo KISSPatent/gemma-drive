@@ -1,0 +1,82 @@
+# Dependencies
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+vendor/
+.venv/
+venv/
+env/
+__pycache__/
+.terraform/
+
+# Build artifacts
+build/
+dist/
+out/
+bin/
+target/
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.class
+*.pyc
+*.pyo
+*.pyd
+.cache/
+.parcel-cache/
+
+# Logs and runtime
+*.log
+logs/
+*.pid
+*.pid.lock
+*.tmp
+*.temp
+*.db
+*.sqlite
+*.sqlite3
+db.sqlite3
+db.sqlite
+
+# Secrets
+.env
+*.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.tfvars
+terraform.tfstate
+terraform.tfstate.*
+
+# IDE / editor
+.vscode/
+.idea/
+*.iml
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Coverage / test
+coverage/
+htmlcov/
+.nyc_output/
+.pytest_cache/
+.tox/
+.mypy_cache/
+
